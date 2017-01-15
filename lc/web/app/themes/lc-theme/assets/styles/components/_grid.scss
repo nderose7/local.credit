@@ -14,3 +14,8 @@
     @include make-col($sidebar-sm-columns);
   }
 }
+@media (min-width: 1140px) {
+  .container {
+      max-width: 1200px;
+  }
+}
