@@ -1,0 +1,20 @@
+---
+- name: disable temporary challenge sites
+  file:
+    path: "{{ nginx_path }}/sites-enabled/letsencrypt-{{ item.key }}.conf"
+    state: absent
+  with_dict: "{{ wordpress_sites }}"
+  notify: reload nginx
+
+- name: restart memcached
+  service:
+    name: memcached
+    state: restarted
+
+- name: reload php-fpm
+  service:
+    name: php7.1-fpm
+    state: reloaded
+
+- name: reload nginx
+  include: reload_nginx.yml
