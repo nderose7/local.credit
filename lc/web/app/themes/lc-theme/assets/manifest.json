@@ -12,6 +12,12 @@
       ],
       "main": true
     },
+    "admin.css": {
+      "files": [
+        "styles/admin.scss"
+      ],
+      "main": false
+    },
     "customizer.js": {
       "files": [
         "scripts/customizer.js"
@@ -22,6 +28,6 @@
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://local.dev"
   }
 }

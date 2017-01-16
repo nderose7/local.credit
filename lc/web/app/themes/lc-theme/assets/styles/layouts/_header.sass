@@ -1,0 +1,75 @@
+header
+	padding: 22px 0
+	font-size: 15px
+	.brand
+		display: inline-block
+		@media (min-width: $screen-sm-min)
+			margin-right: 40px
+	nav
+		margin-top: 3px
+		a
+			transition: all .2s ease-in
+	.all-products
+		position: relative
+		top: 1px
+		cursor: pointer
+		display: inline-block
+		&:hover
+			color: $brand-primary
+	.nav-primary
+		display: none
+		position: absolute
+		top: 50px
+		left: 0
+		background: white
+		z-index: 999
+		a
+			padding: 10px 25px
+			display: block
+			color: $brand-medium
+			border-right: 1px solid $brand-light
+			border-left: 1px solid $brand-light
+			&:hover
+				color: white
+				background: $brand-primary
+				border-right: 1px solid $brand-primary
+				border-left: 1px solid $brand-primary
+		li
+			border-bottom: 1px solid $brand-light
+			&:first-child
+				border-top: 1px solid $brand-light
+			&:nth-last-child(3)
+				border-bottom: 1px solid $brand-light
+				&:hover
+					border-bottom: 1px solid $brand-primary
+		#menu-item-40, #menu-item-43
+			display: block
+			@media (min-width: $screen-sm-min)
+				display: none //tablet
+			@media (min-width: $screen-md-min)
+				display: none //medium
+			@media (min-width: $screen-lg-min)
+				display: none //desktop
+	svg
+		position: relative
+		top: 0px
+		left: 3px
+		cursor: pointer
+		
+	.nav-right
+		float: right
+		ul > li
+			display: inline-block
+			padding-left: 25px
+			a
+				color: $brand-medium
+				&:hover
+					color: $brand-primary
+		#menu-item-46 a
+			color: $brand-primary
+			font-weight: bold
+			&:hover
+				color: $brand-medium
+
+
+

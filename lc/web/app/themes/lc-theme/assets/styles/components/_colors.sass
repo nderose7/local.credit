@@ -1,0 +1,88 @@
+/* Brand Color Palette */
+
+$brand-primary:         #68af6b
+$brand-secondary:       #63666a
+$brand-light:           #f3f5f8
+$brand-light-contrast:  #e4e4ea
+$brand-medium:          #606466
+$brand-dark:            #333638
+$brand-link:            #3060a5
+
+/* Other Color Palette */
+
+$success:               #b9e2db
+$failure:               #f8b1ab
+$blue:                  #199ff2
+$slate:                 #637a91
+$orange:                #ff9203
+$green:                 #9bd105
+
+a
+	color: $brand-primary
+	&:hover
+		color: darken($brand-primary, 10%)
+		text-decoration: none
+		animation: all 0.2s
+
+.bkgd-dark
+	background: $brand-dark
+	color: white
+
+.bkgd-primary
+	background: $brand-primary
+
+.bkgd-secondary
+	background: $brand-secondary
+
+.bkgd-medium
+	background: $brand-medium
+
+.bkgd-light
+	background: $brand-light
+
+.bkgd-light-plus
+	background: $brand-light-contrast
+
+.bkgd-link
+	background: $brand-link
+
+.bkgd-success
+	background: $success
+
+.bkgd-failure
+	background: $failure
+
+.bkgd-blue
+	background: $blue
+
+.bkgd-orange
+	background: $orange
+
+.bkgd-slate
+	background: $slate
+
+.bkgd-green
+	background: $green
+
+.text-white
+	color: white
+
+.text-dark
+	color: $brand-dark !important
+
+.text-primary
+	color: $brand-primary !important
+
+.text-secondary
+	color: $brand-secondary !important
+
+.text-medium
+	color: $brand-medium !important
+
+.color-square
+	p
+		margin: 0
+	p:first-child
+		margin-bottom: 8px
+
+

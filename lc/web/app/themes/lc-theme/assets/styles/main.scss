@@ -6,12 +6,16 @@
 // endbower
 
 @import "common/global";
+@import "components/colors";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
 @import "components/wp-classes";
+@import "components/typography";
+@import "components/icons";
 @import "layouts/header";
+@import "layouts/cta";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
