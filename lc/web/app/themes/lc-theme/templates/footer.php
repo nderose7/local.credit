@@ -1,7 +1,7 @@
 <footer class="content-info">
   <div class="container white">
   	<div class="row">
-  		<div class="col-md-3">
+  		<div class="col-md-2">
 		  	<h2><a class="logo" href="/"><span class="white text300">Local.</span><span class="text-primary">Credit</span></a></h2>
 		  	<p class="lead">800-555-5555</p>
 			  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
@@ -35,7 +35,7 @@
 	    	<p class="footer-label">ABOUT</p>
 	    	<ul>
 	    		<li><a href="/what-is-local-dot-credit">What is Local.Credit?</a></li>
-					<li><a href="/news-and-financial-tips">Local Financial News</a></li>
+					<li><a href="/news-and-financial-tips">News &amp; Financial Tips</a></li>
 					<li><a href="/contact-us">Contact Us</a></li>
 					<li><a href="/press">Press</a></li>
 	    	</ul>
@@ -48,7 +48,7 @@
 					<li><a href="/advertiser-disclosure">Advertiser Disclosure</a></li>
 	    	</ul>
 	    </div>
-	    <div class="col-md-3">
+	    <div class="col-md-3 offset-md-1">
 	    	<div class="bkgd-medium round5 tac p20 footer-join">
 		    	<h3>Join Our Network</h3>
 		    	<ul>

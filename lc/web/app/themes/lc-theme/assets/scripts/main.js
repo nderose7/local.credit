@@ -86,7 +86,7 @@
     $('.all-products').on('click', function() {
       rotation += 180;
       $('.all-products svg').rotate(rotation);
-      $('header .nav-primary').toggle();
+      $('header .nav-primary').slideToggle(200);
     });
 
     evt.stopImmediatePropagation();

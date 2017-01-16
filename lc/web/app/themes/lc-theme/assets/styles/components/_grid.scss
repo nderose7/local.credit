@@ -14,10 +14,14 @@
     @include make-col($sidebar-sm-columns);
   }
 }
-@media (min-width: $screen-sm-min) {
+@media (min-width: $screen-lg-min) {
   .container {
-      max-width: 1200px;
-      padding-left: 0;
-      padding-right: 0;
+    max-width: 1200px;
+    padding-left: 0;
+    padding-right: 0;
   }
+}
+.main {
+  padding-left: 0;
+  padding-right: 0;
 }
