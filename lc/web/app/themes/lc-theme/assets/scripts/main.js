@@ -74,4 +74,24 @@
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
+  $(function(evt) {
+    var rotation = 0;
+    $.fn.rotate = function(degrees) {
+      $(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
+                   '-moz-transform' : 'rotate('+ degrees +'deg)',
+                   '-ms-transform' : 'rotate('+ degrees +'deg)',
+                   'transform' : 'rotate('+ degrees +'deg)'});
+      return $(this);
+    };
+    $('.all-products').on('click', function() {
+      rotation += 180;
+      $('.all-products svg').rotate(rotation);
+      $('header .nav-primary').toggle();
+    });
+
+    evt.stopImmediatePropagation();
+  });
+
+  $('#menu-item-46 a').append('&nbsp;&rarr;');
+
 })(jQuery); // Fully reference jQuery after this point.
